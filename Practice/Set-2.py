@@ -74,14 +74,14 @@
 # Coder's Thinking Process: 1. Input int >1. 2. For loop 2 to sqrt(n) (optimize later), check %==0. 3. Flag var for prime. 4. Edges: 1/2/negatives.
 # Sample Solution:
 
-number = int(input("enter the number:"))
+# number = int(input("enter the number:"))
 
-if number<=1:
-    print("not prime")
-else:
-    is_prime = True
-    for i in range(2,number):
-        if number%2 == 0:
-            is_prime = False
-            break
-    print("prime" if is_prime else "not prime")
+# if number<=1:
+#     print("not prime")
+# else:
+#     is_prime = True
+#     for i in range(2,number):
+#         if number%2 == 0:
+#             is_prime = False
+#             break
+#     print("prime" if is_prime else "not prime")
